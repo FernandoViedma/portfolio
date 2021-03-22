@@ -1,0 +1,49 @@
+h1, h3, h4, h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ges, #intra{
+    text-align: center;
+    justify-content: center;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    /* color: #fc8403; */
+}
+
+li{
+    font-size: 20px;
+}
+
+ul{
+    text-align: center;
+  list-style: inside;
+}
+
+hr{
+    width: 75%;
+}
+
+@media (max-width: 400px) {
+    footer p {
+        font-size: 12px;
+    }
+}
+
+#git:hover{
+    color: black;
+}
+
+#git{
+    color: white;
+}
+
+h4{
+    color: #fc8403;
+    opacity: 1;
+}
+
+h4:hover{
+    color: rgb(9, 9, 240);
+}

@@ -1,0 +1,37 @@
+#nav1, #nav2, #nav3, #nav4 {
+    opacity:  0.8;
+}
+
+#nav1:hover{
+    opacity:1;
+  }
+
+#nav2:hover{
+    opacity:1;
+}
+
+#nav3:hover{
+    opacity:1;
+}
+
+#nav4:hover{
+    opacity:1;
+}
+
+@media (min-width: 500px) {
+    #nav1, #nav2, #nav3, #nav4 {
+        margin-right: 30px;
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    #nav1, #nav2, #nav3, #nav4 {
+        font-size: 15px;
+    }
+}
+
+#navbar{
+    background-color:rgb(27, 27, 27);
+    color: white;
+}

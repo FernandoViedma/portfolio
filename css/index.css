@@ -1,0 +1,27 @@
+#img1, #img2, #img3, #img4{
+    filter: grayscale(100%);
+}
+
+h1, h3, h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#email{
+    color: white;
+    display: inline-block;
+}
+
+#email:hover{
+    color: black;
+  }
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+@media (max-width: 400px) {
+    footer p {
+        font-size: 12px;
+    }
+}
+

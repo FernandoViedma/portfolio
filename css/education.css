@@ -1,0 +1,114 @@
+h1, h3, h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+    width: 75%;
+}
+
+#fp, #master, #grado{
+    border-color: orange;
+    text-align: center;
+    
+}
+
+#lenguajes{
+    border-radius: 10px;
+}
+
+#mapa:hover {
+    transform: scale(1.2); 
+}
+
+#tierra:hover {
+    transform: scale(1.2); 
+}
+
+#lenguajes:hover {
+    transform: scale(1.2); 
+}
+
+
+@media (min-width: 750px) {
+    #mapa {
+        width: 600px;
+        height: 220px;
+        transition: transform .2s; 
+    }
+}
+
+@media (max-width: 750px) {
+    #mapa {
+        width: 400px;
+        height: 150px;
+        transition: transform .2s; 
+    }
+}
+
+@media (max-width: 450px) {
+    #mapa {
+        width: 240px;
+        height: 85px;
+        transition: transform .2s; 
+    }
+}
+
+@media (min-width: 750px) {
+    #lenguajes {
+        width: 450px;
+        height: 300px;
+        transition: transform .2s; 
+    }
+}
+
+@media (max-width: 750px) {
+    #lenguajes {
+        width: 300px;
+        height: 150px;
+        transition: transform .2s; 
+    }
+}
+
+@media (max-width: 450px) {
+    #lenguajes {
+        width: 140px;
+        height: 85px;
+        transition: transform .2s; 
+    }
+}
+
+@media (min-width: 750px) {
+    #tierra {
+        width: 250px;
+        height: 250px;
+        transition: transform .2s; 
+    }
+}
+
+@media (max-width: 750px) {
+    #tierra {
+        width: 200px;
+        height: 200px;
+        transition: transform .2s; 
+    }
+}
+
+@media (max-width: 450px) {
+    #tierra {
+        width: 100px;
+        height: 100px;
+        transition: transform .2s; 
+    }
+}
+
+@media (max-width: 400px) {
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    div h3 {
+        font-size: 16px;
+    }
+}

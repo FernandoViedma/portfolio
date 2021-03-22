@@ -1,0 +1,38 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+h1, h3, h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#email{
+    color: white;
+    display: inline-block;
+}
+
+#email:hover{
+    color: #fc5a03;
+  }
+
+#linkedin{
+    color: white;
+    display: inline-block; 
+}
+
+#linkedin:hover{
+    color: #fc5a03;
+  }
+
+#logoLinkedin{
+    display: inline-block;
+    width: 25px;
+    margin-left: 7px;
+    filter: grayscale(100%);
+}
+
+@media (max-width: 400px) {
+    footer p {
+        font-size: 12px;
+    }
+}
